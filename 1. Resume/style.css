@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 50%;
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+header p {
+    color: darkslategrey;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.box {
+    width: 50%;
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    width: 100%;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-column{
+    margin-left: 40px;
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+}
+
+.icon-item i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.icon-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.icon-item a:hover {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.main {
+    width: 50%;
+    height: 750px;
+    background-color: whitesmoke;
+}
+
+.main h3{
+    color: darkblue;
+    margin-left: 25px;
+    margin-top: -18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main i{
+    margin-left: 2px;
+    padding: 20px;
+}
+
+.text p{
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.edu h3{
+    color: darkblue;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.edu h4{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.edu p, .edu strong{
+    margin-left: 50px;
+}
+
+.edu2 h4, .edu2 p, .edu2 strong{
+    margin-left: 350px;
+}
+
+.edu2{
+    margin-top: -55px;
+}
+
+.skills h3{
+    color: darkblue;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills li{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.pro h3{
+    margin-left: 350px;
+    margin-top: -160px;
+}
+
+.pro li{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.interests h3{
+    color: darkblue;
+    margin-left: 30px;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interests li{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
